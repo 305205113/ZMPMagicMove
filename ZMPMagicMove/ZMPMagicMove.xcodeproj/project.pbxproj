@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E77BFA181B5E15CF002FF25A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BFA171B5E15CF002FF25A /* main.m */; };
+		E77BFA1B1B5E15CF002FF25A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BFA1A1B5E15CF002FF25A /* AppDelegate.m */; };
+		E77BFA1E1B5E15CF002FF25A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BFA1D1B5E15CF002FF25A /* ViewController.m */; };
+		E77BFA211B5E15CF002FF25A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77BFA1F1B5E15CF002FF25A /* Main.storyboard */; };
+		E77BFA231B5E15CF002FF25A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77BFA221B5E15CF002FF25A /* Images.xcassets */; };
+		E77BFA261B5E15CF002FF25A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E77BFA241B5E15CF002FF25A /* LaunchScreen.xib */; };
+		E77BFA321B5E15CF002FF25A /* ZMPMagicMoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BFA311B5E15CF002FF25A /* ZMPMagicMoveTests.m */; };
+		E77BFA3F1B5E1CCD002FF25A /* ZMPMagicMoveTransion.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BFA3E1B5E1CCD002FF25A /* ZMPMagicMoveTransion.m */; };
+		E77BFA421B5E1F4B002FF25A /* ZMPMagicMovePopTransion.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BFA411B5E1F4B002FF25A /* ZMPMagicMovePopTransion.m */; };
+		E77BFA451B5E2018002FF25A /* ZMPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BFA441B5E2018002FF25A /* ZMPDetailViewController.m */; };
+		E77BFA4B1B5E2B7F002FF25A /* ZMPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BFA4A1B5E2B7F002FF25A /* ZMPCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E77BFA2C1B5E15CF002FF25A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77BFA0A1B5E15CF002FF25A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77BFA111B5E15CF002FF25A;
+			remoteInfo = ZMPMagicMove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E77BFA121B5E15CF002FF25A /* ZMPMagicMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMPMagicMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77BFA161B5E15CF002FF25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77BFA171B5E15CF002FF25A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E77BFA191B5E15CF002FF25A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E77BFA1A1B5E15CF002FF25A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E77BFA1C1B5E15CF002FF25A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E77BFA1D1B5E15CF002FF25A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E77BFA201B5E15CF002FF25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E77BFA221B5E15CF002FF25A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E77BFA251B5E15CF002FF25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E77BFA2B1B5E15CF002FF25A /* ZMPMagicMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMPMagicMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77BFA301B5E15CF002FF25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77BFA311B5E15CF002FF25A /* ZMPMagicMoveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMPMagicMoveTests.m; sourceTree = "<group>"; };
+		E77BFA3D1B5E1CCD002FF25A /* ZMPMagicMoveTransion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMPMagicMoveTransion.h; sourceTree = "<group>"; };
+		E77BFA3E1B5E1CCD002FF25A /* ZMPMagicMoveTransion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMPMagicMoveTransion.m; sourceTree = "<group>"; };
+		E77BFA401B5E1F4B002FF25A /* ZMPMagicMovePopTransion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMPMagicMovePopTransion.h; sourceTree = "<group>"; };
+		E77BFA411B5E1F4B002FF25A /* ZMPMagicMovePopTransion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMPMagicMovePopTransion.m; sourceTree = "<group>"; };
+		E77BFA431B5E2018002FF25A /* ZMPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMPDetailViewController.h; sourceTree = "<group>"; };
+		E77BFA441B5E2018002FF25A /* ZMPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMPDetailViewController.m; sourceTree = "<group>"; };
+		E77BFA491B5E2B7F002FF25A /* ZMPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMPCollectionViewCell.h; sourceTree = "<group>"; };
+		E77BFA4A1B5E2B7F002FF25A /* ZMPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMPCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77BFA0F1B5E15CF002FF25A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77BFA281B5E15CF002FF25A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E77BFA091B5E15CF002FF25A = {
+			isa = PBXGroup;
+			children = (
+				E77BFA141B5E15CF002FF25A /* ZMPMagicMove */,
+				E77BFA2E1B5E15CF002FF25A /* ZMPMagicMoveTests */,
+				E77BFA131B5E15CF002FF25A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E77BFA131B5E15CF002FF25A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77BFA121B5E15CF002FF25A /* ZMPMagicMove.app */,
+				E77BFA2B1B5E15CF002FF25A /* ZMPMagicMoveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E77BFA141B5E15CF002FF25A /* ZMPMagicMove */ = {
+			isa = PBXGroup;
+			children = (
+				E77BFA191B5E15CF002FF25A /* AppDelegate.h */,
+				E77BFA1A1B5E15CF002FF25A /* AppDelegate.m */,
+				E77BFA1C1B5E15CF002FF25A /* ViewController.h */,
+				E77BFA1D1B5E15CF002FF25A /* ViewController.m */,
+				E77BFA491B5E2B7F002FF25A /* ZMPCollectionViewCell.h */,
+				E77BFA4A1B5E2B7F002FF25A /* ZMPCollectionViewCell.m */,
+				E77BFA431B5E2018002FF25A /* ZMPDetailViewController.h */,
+				E77BFA441B5E2018002FF25A /* ZMPDetailViewController.m */,
+				E77BFA3D1B5E1CCD002FF25A /* ZMPMagicMoveTransion.h */,
+				E77BFA3E1B5E1CCD002FF25A /* ZMPMagicMoveTransion.m */,
+				E77BFA401B5E1F4B002FF25A /* ZMPMagicMovePopTransion.h */,
+				E77BFA411B5E1F4B002FF25A /* ZMPMagicMovePopTransion.m */,
+				E77BFA1F1B5E15CF002FF25A /* Main.storyboard */,
+				E77BFA221B5E15CF002FF25A /* Images.xcassets */,
+				E77BFA241B5E15CF002FF25A /* LaunchScreen.xib */,
+				E77BFA151B5E15CF002FF25A /* Supporting Files */,
+			);
+			path = ZMPMagicMove;
+			sourceTree = "<group>";
+		};
+		E77BFA151B5E15CF002FF25A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E77BFA161B5E15CF002FF25A /* Info.plist */,
+				E77BFA171B5E15CF002FF25A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E77BFA2E1B5E15CF002FF25A /* ZMPMagicMoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				E77BFA311B5E15CF002FF25A /* ZMPMagicMoveTests.m */,
+				E77BFA2F1B5E15CF002FF25A /* Supporting Files */,
+			);
+			path = ZMPMagicMoveTests;
+			sourceTree = "<group>";
+		};
+		E77BFA2F1B5E15CF002FF25A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E77BFA301B5E15CF002FF25A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77BFA111B5E15CF002FF25A /* ZMPMagicMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77BFA351B5E15CF002FF25A /* Build configuration list for PBXNativeTarget "ZMPMagicMove" */;
+			buildPhases = (
+				E77BFA0E1B5E15CF002FF25A /* Sources */,
+				E77BFA0F1B5E15CF002FF25A /* Frameworks */,
+				E77BFA101B5E15CF002FF25A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMPMagicMove;
+			productName = ZMPMagicMove;
+			productReference = E77BFA121B5E15CF002FF25A /* ZMPMagicMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77BFA2A1B5E15CF002FF25A /* ZMPMagicMoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77BFA381B5E15CF002FF25A /* Build configuration list for PBXNativeTarget "ZMPMagicMoveTests" */;
+			buildPhases = (
+				E77BFA271B5E15CF002FF25A /* Sources */,
+				E77BFA281B5E15CF002FF25A /* Frameworks */,
+				E77BFA291B5E15CF002FF25A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77BFA2D1B5E15CF002FF25A /* PBXTargetDependency */,
+			);
+			name = ZMPMagicMoveTests;
+			productName = ZMPMagicMoveTests;
+			productReference = E77BFA2B1B5E15CF002FF25A /* ZMPMagicMoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77BFA0A1B5E15CF002FF25A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = zmp1123;
+				TargetAttributes = {
+					E77BFA111B5E15CF002FF25A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E77BFA2A1B5E15CF002FF25A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E77BFA111B5E15CF002FF25A;
+					};
+				};
+			};
+			buildConfigurationList = E77BFA0D1B5E15CF002FF25A /* Build configuration list for PBXProject "ZMPMagicMove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77BFA091B5E15CF002FF25A;
+			productRefGroup = E77BFA131B5E15CF002FF25A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77BFA111B5E15CF002FF25A /* ZMPMagicMove */,
+				E77BFA2A1B5E15CF002FF25A /* ZMPMagicMoveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77BFA101B5E15CF002FF25A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77BFA211B5E15CF002FF25A /* Main.storyboard in Resources */,
+				E77BFA261B5E15CF002FF25A /* LaunchScreen.xib in Resources */,
+				E77BFA231B5E15CF002FF25A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77BFA291B5E15CF002FF25A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77BFA0E1B5E15CF002FF25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77BFA1E1B5E15CF002FF25A /* ViewController.m in Sources */,
+				E77BFA421B5E1F4B002FF25A /* ZMPMagicMovePopTransion.m in Sources */,
+				E77BFA1B1B5E15CF002FF25A /* AppDelegate.m in Sources */,
+				E77BFA3F1B5E1CCD002FF25A /* ZMPMagicMoveTransion.m in Sources */,
+				E77BFA181B5E15CF002FF25A /* main.m in Sources */,
+				E77BFA4B1B5E2B7F002FF25A /* ZMPCollectionViewCell.m in Sources */,
+				E77BFA451B5E2018002FF25A /* ZMPDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77BFA271B5E15CF002FF25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77BFA321B5E15CF002FF25A /* ZMPMagicMoveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77BFA2D1B5E15CF002FF25A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77BFA111B5E15CF002FF25A /* ZMPMagicMove */;
+			targetProxy = E77BFA2C1B5E15CF002FF25A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E77BFA1F1B5E15CF002FF25A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77BFA201B5E15CF002FF25A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E77BFA241B5E15CF002FF25A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77BFA251B5E15CF002FF25A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E77BFA331B5E15CF002FF25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E77BFA341B5E15CF002FF25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77BFA361B5E15CF002FF25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZMPMagicMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E77BFA371B5E15CF002FF25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZMPMagicMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E77BFA391B5E15CF002FF25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZMPMagicMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMPMagicMove.app/ZMPMagicMove";
+			};
+			name = Debug;
+		};
+		E77BFA3A1B5E15CF002FF25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZMPMagicMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMPMagicMove.app/ZMPMagicMove";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77BFA0D1B5E15CF002FF25A /* Build configuration list for PBXProject "ZMPMagicMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77BFA331B5E15CF002FF25A /* Debug */,
+				E77BFA341B5E15CF002FF25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77BFA351B5E15CF002FF25A /* Build configuration list for PBXNativeTarget "ZMPMagicMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77BFA361B5E15CF002FF25A /* Debug */,
+				E77BFA371B5E15CF002FF25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77BFA381B5E15CF002FF25A /* Build configuration list for PBXNativeTarget "ZMPMagicMoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77BFA391B5E15CF002FF25A /* Debug */,
+				E77BFA3A1B5E15CF002FF25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E77BFA0A1B5E15CF002FF25A /* Project object */;
+}
